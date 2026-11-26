@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "sourceCommit": "fbe29ebae5be6b3ca59dd32de532f1b10e7c9b50",
+  "repository": "https://github.com/kscht/spiridus-git",
+  "files": {
+    "build.sh": "668218b477eab83ab5bdb9945f583cadce3997379c88197cffac68def9dd88b6",
+    "client_test.go": "fb6681f6baff3cf2ff3f3b79c6680d6bdeb42706f7d1d3e4bbe29419b2ec149f",
+    "filter.go": "76b52535d33d3c9576e8dceb858b00340f3a0291e50a1d3b7e96937dbad06b47",
+    "fixtures/protocol.json": "9fbef54856d1dd8825592ca29d31d28b08fd5198b0db8331661e4a38139e34ac",
+    "go.mod": "7ff62d5dadafdfcd43a9fb62e848d435a02f3aa07ed7121f66e7625b3398248f",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "233ea0fcf5bd272d2db4831b0cfc3bf550d8f585ec58caf7d203bd71910f9a36",
+    "README.md": "f7466db1e2158d5f5df4bbe5540d0ab22a40edf3ce11d919b45b3105011ebbe1",
+    "release-key.pub": "99a4982cc5210fc577f5929477582b29bc981434910af794fcd775545f10ecc0",
+    "remote.go": "f9500d4300b545163d0a522b6b5d61be709e327cac4b5906bb0fe94f4daba89b",
+    "THIRD_PARTY_NOTICES.txt": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+    "transport.go": "50f4c8d924e8a5fd2faaf0cb660c8249754150b8c7dca68842450bb9d6fe9858"
+  }
+}

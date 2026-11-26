@@ -1,0 +1,36 @@
+{
+  "protocol": 1,
+  "trustedAttributes": "* filter=lfs -diff -merge -text\n*.md !filter diff merge text\n.gitattributes !filter diff merge text\n.spiridus.yml !filter diff merge text\n**/.spiridus.yml !filter diff merge text\nspiridus/theme.json !filter diff merge text\nspiridus/theme.public.json !filter diff merge text\n**/spiridus/theme.json !filter diff merge text\n**/spiridus/theme.public.json !filter diff merge text\n",
+  "pointers": [
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize 123\n",
+      "valid": true,
+      "oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "size": 123
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize 123\n\n",
+      "valid": false
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize 0123\n",
+      "valid": false
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize 9007199254740992\n",
+      "valid": false
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize -1\n",
+      "valid": false
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\r\noid sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\nsize 123\r\n",
+      "valid": false
+    },
+    {
+      "text": "version https://git-lfs.github.com/spec/v1\noid sha1:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nsize 123\n",
+      "valid": false
+    }
+  ]
+}

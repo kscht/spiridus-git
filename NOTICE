@@ -1,0 +1,6 @@
+git-remote-spiridus
+Copyright 2026 Spiridus contributors
+
+Лицензия клиента — Apache License, Version 2.0 (см. LICENSE).
+Уведомления о стандартной библиотеке Go сохранены в THIRD_PARTY_NOTICES.txt.
+Исходники: https://github.com/kscht/spiridus-git
